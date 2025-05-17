@@ -17,6 +17,22 @@ body {
   font-family: var(--font-base);
 }
 
+/* Typed.js cursor styling */
+.typed-cursor {
+    color: var(--color-brand);
+    font-weight: 400;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
 .card .img {
   overflow: hidden;
 }
