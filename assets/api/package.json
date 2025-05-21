@@ -1,0 +1,8 @@
+{
+  "name": "portfolio-api-functions",
+  "version": "1.0.0",
+  "description": "API functions for portfolio website",
+  "dependencies": {
+    "nodemailer": "^7.0.3"
+  }
+}
