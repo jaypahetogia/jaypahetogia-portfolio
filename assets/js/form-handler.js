@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
       };
 
       try {
-        // Replace with your Azure Function URL after deployment
-        const functionUrl = 'https://jaypcodes-functions.azurewebsites.net/api/ContactForm';
+        // Updated URL for Azure Static Web Apps managed functions
+        const functionUrl = '/api/ContactForm';
         
         const response = await fetch(functionUrl, {
           method: 'POST',
