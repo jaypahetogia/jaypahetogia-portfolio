@@ -113,65 +113,185 @@
       </section>
       <!-- //HOME SECTION -->
 
-      <!-- SERVICES -->
-      <section id="services" class="full-hight px-lg-5">
-        <div class="container">
-          <div class="row p-4">
-            <div class="col-md-8" data-aos="fade-up">
-              <h6>ABOUT</h6>
-              <h1>Experience</h1>
-            </div>
+      <!-- About - EXPERIENCE -->
+<section id="services" class="full-hight px-lg-5">
+  <div class="container">
+    <div class="row p-4">
+      <div class="col-md-8" data-aos="fade-up">
+        <h6>ABOUT</h6>
+        <h1>Experience</h1>
+      </div>
+    </div>
+
+    <!-- Experience Cards -->
+    <div class="row gy-4">
+      <!-- Youth Work Experience -->
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="bg-base p-4 rounded-4 shadow-effect h-100">
+          <div class="iconbox mb-3">
+            <i class="las la-users"></i>
           </div>
+          <h5 class="mt-3 mb-4">Youth Work</h5>
+          <p class="mb-4">4+ years mentoring at-risk youth, building trust with diverse communities, and supporting crisis situations alongside social workers and caregivers.</p>
+          <button 
+            type="button" 
+            class="custom-link" 
+            data-bs-toggle="modal" 
+            data-bs-target="#youthWorkModal"
+            style="background: none; border: none; padding: 0; color: inherit;"
+          >
+            See More
+          </button>
+        </div>
+      </div>
 
-          <div class="row gy-4">
-            <div class="col-md-4" data-aos="fade-up">
-              <div class="bg-base p-4 rounded-4 shadow-effect">
-                <div class="iconbox">
-                  <i class="las la-feather"></i>
-                </div>
-                <h5 class="mt-3 mb-4">Youth Work</h5>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eligendi eveniet ullam harum sapiente quam alias a fugiat est,
-                  nobis repellendus?
-                </p>
-                <a href="#" class="custom-link">See more</a>
+      <!-- Java Developer Experience -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="bg-base p-4 rounded-4 shadow-effect h-100">
+          <div class="iconbox mb-3">
+            <i class="las la-code"></i>
+          </div>
+          <h5 class="mt-3 mb-4">Java Developer</h5>
+          <p class="mb-4">Intern and junior developer experience building Java applications, working in Agile teams, and developing REST APIs using Spring Boot.</p>
+          <button 
+            type="button" 
+            class="custom-link" 
+            data-bs-toggle="modal" 
+            data-bs-target="#javaModal"
+            style="background: none; border: none; padding: 0; color: inherit;"
+          >
+            See More
+          </button>
+        </div>
+      </div>
+
+      <!-- Cloud Journey -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+        <div class="bg-base p-4 rounded-4 shadow-effect h-100">
+          <div class="iconbox mb-3">
+            <i class="las la-cloud"></i>
+          </div>
+          <h5 class="mt-3 mb-4">Cloud Journey</h5>
+          <p class="mb-4">Azure certified professional with hands-on experience deploying applications using Azure Static Web Apps and exploring serverless architecture.</p>
+          <button 
+            type="button" 
+            class="custom-link" 
+            data-bs-toggle="modal" 
+            data-bs-target="#cloudModal"
+            style="background: none; border: none; padding: 0; color: inherit;"
+          >
+            See More
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Youth Work Modal -->
+    <div class="modal fade" id="youthWorkModal" tabindex="-1" aria-labelledby="youthWorkModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-base text-white">
+          <div class="modal-header border-0">
+            <h5 class="modal-title" id="youthWorkModalLabel">Youth Work Experience</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex align-items-center mb-3">
+              <div class="iconbox me-3" style="width: 50px; height: 50px; font-size: 24px;">
+                <i class="las la-users"></i>
+              </div>
+              <div>
+                <h6 class="mb-0 text-brand">2019 - 2023</h6>
+                <small>Various Organizations, Wellington</small>
               </div>
             </div>
-
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-              <div class="bg-base p-4 rounded-4 shadow-effect">
-                <div class="iconbox">
-                  <i class="las la-pencil-ruler"></i>
-                </div>
-                <h5 class="mt-3 mb-4">Java Developer</h5>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eligendi eveniet ullam harum sapiente quam alias a fugiat est,
-                  nobis repellendus?
-                </p>
-                <a href="#" class="custom-link">See more</a>
-              </div>
-            </div>
-
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
-              <div class="bg-base p-4 rounded-4 shadow-effect">
-                <div class="iconbox">
-                  <i class="las la-laptop-code"></i>
-                </div>
-                <h5 class="mt-3 mb-4">Cloud Journey</h5>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eligendi eveniet ullam harum sapiente quam alias a fugiat est,
-                  nobis repellendus?
-                </p>
-                <a href="#" class="custom-link">See more</a>
-              </div>
-            </div>
+            <p>Over 4 years working with at-risk youth taught me how to lead with compassion and persistence. I mentored young people, supported crisis situations, and worked alongside social workers, police, and caregivers to build better futures.</p>
+            <h6 class="text-brand mt-4 mb-3">Key Responsibilities & Achievements:</h6>
+            <ul>
+              <li>Led weekly mentoring programs and outreach events for 15-20 youth</li>
+              <li>Supported vulnerable youth through critical life transitions</li>
+              <li>Built long-term trust relationships with diverse communities</li>
+              <li>Collaborated with multidisciplinary teams including social workers and law enforcement</li>
+              <li>Developed crisis intervention and de-escalation skills</li>
+              <li>Organized community events that increased youth engagement by 40%</li>
+            </ul>
+            <h6 class="text-brand mt-4 mb-3">Skills Developed:</h6>
+            <p>Communication, empathy, leadership, crisis management, cultural sensitivity, and team collaboration.</p>
           </div>
         </div>
-      </section>
-      <!-- //SERVICES -->
+      </div>
+    </div>
+
+    <!-- Java Developer Modal -->
+    <div class="modal fade" id="javaModal" tabindex="-1" aria-labelledby="javaModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-base text-white">
+          <div class="modal-header border-0">
+            <h5 class="modal-title" id="javaModalLabel">Java Developer Experience</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex align-items-center mb-3">
+              <div class="iconbox me-3" style="width: 50px; height: 50px; font-size: 24px;">
+                <i class="las la-code"></i>
+              </div>
+              <div>
+                <h6 class="mb-0 text-brand">2023 - 2024</h6>
+                <small>Wellington Tech Companies</small>
+              </div>
+            </div>
+            <p>I worked as an intern and junior developer building and maintaining Java applications. I collaborated in Agile teams, contributed to real-world backend features, and developed REST APIs using Spring Boot.</p>
+            <h6 class="text-brand mt-4 mb-3">Technical Experience:</h6>
+            <ul>
+              <li>Created and enhanced backend services using Java and Spring Boot</li>
+              <li>Developed RESTful APIs and microservices architecture</li>
+              <li>Worked with databases using JPA/Hibernate and SQL</li>
+              <li>Implemented unit testing with JUnit and Mockito</li>
+              <li>Used Git for version control and participated in code reviews</li>
+              <li>Contributed to CI/CD pipelines and deployment processes</li>
+            </ul>
+            <h6 class="text-brand mt-4 mb-3">Agile Methodology:</h6>
+            <p>Participated in sprint planning, daily standups, retrospectives, and collaborated effectively in cross-functional teams.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cloud Journey Modal -->
+    <div class="modal fade" id="cloudModal" tabindex="-1" aria-labelledby="cloudModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-base text-white">
+          <div class="modal-header border-0">
+            <h5 class="modal-title" id="cloudModalLabel">Cloud Journey</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex align-items-center mb-3">
+              <div class="iconbox me-3" style="width: 50px; height: 50px; font-size: 24px;">
+                <i class="las la-cloud"></i>
+              </div>
+              <div>
+                <h6 class="mb-0 text-brand">2024 - Present</h6>
+                <small>Azure Cloud Platform</small>
+              </div>
+            </div>
+            <p>My cloud journey began with Azure Fundamentals certification (AZ-900) and hands-on projects. I deployed my portfolio using Azure Static Web Apps, explored serverless functions, and continue to learn about cost optimization and scalable infrastructure.</p>
+            <h6 class="text-brand mt-4 mb-3">Cloud Achievements:</h6>
+            <ul>
+              <li>AZ-900 Certified: Microsoft Azure Fundamentals</li>
+              <li>Built and hosted projects using Azure Static Web Apps</li>
+              <li>Implemented CI/CD pipelines with GitHub Actions</li>
+              <li>Explored Azure Functions for serverless computing</li>
+              <li>Learning ARM templates and Infrastructure as Code</li>
+              <li>Cost optimization and resource management practices</li>
+            </ul>
+            <h6 class="text-brand mt-4 mb-3">Current Focus:</h6>
+            <p>Expanding knowledge in containerization with Docker, Kubernetes, and preparing for Azure Developer Associate certification.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
       <!-- WORK -->
       <section id="work" class="full-hight px-lg-5">
